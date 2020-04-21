@@ -231,8 +231,6 @@ nav{
 .second-container{
     width: calc(100vw - 370px);
     height: auto;
-    /* height: calc(100vh - 305px); */
-    
     display: grid;
     grid-template-columns: 3fr 3fr 2fr;
     grid-column-gap: 10px;
@@ -298,4 +296,4 @@ nav{
     ::-webkit-scrollbar-thumb:hover {
         background: #838383; 
     } 
-}
+} 
