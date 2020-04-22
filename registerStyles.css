@@ -84,7 +84,7 @@ nav{
 
 
 /*LOGIN*/
-.login-container{
+.register-container{
     background-color: transparent;
     width: 50vw;
     height: 100%;
@@ -229,7 +229,7 @@ form input::placeholder{
 /*Media*/
 
 @media screen and (max-width: 1124px){
-    .login-container{
+    .register-container{
         background: #ffffff;
     }
 }
@@ -249,7 +249,7 @@ form input::placeholder{
     .companyName img{
         width: 100px;
     }
-    .login-container{
+    .register-container{
         padding-top: 90px;
         padding-bottom: 30px;
         width: 100vw;
