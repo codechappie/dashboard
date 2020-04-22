@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500,600&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="loginStyles.css">
+    <!-- <link rel="stylesheet" href="loginStyles.css"> -->
+    <link rel="stylesheet" href="registerStyles.css">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
 <body>
     <!-- <header>
@@ -137,7 +139,7 @@
             </div>
         </div>
     </header> -->
-
+<!-- 
     <section class="login-section">
         <nav>
             <div class="companyName">
@@ -146,24 +148,26 @@
                 </div>
             </div>
         </nav>
-
+        
         <div class="login-container">
             <div class="form-container">
                 <div class="image-user">
                     <img src="images/user.png" alt="">
                 </div>
                 <form>
-                    <div class="alert alert-danger">
+                    <div class="alert-error">
+                        ¡Usuario o contraseña incorrecta!
+                        <a href="#"><i class="fi-xwluxl-times-wide"></i></a>
                     </div>
                         <div class="form-group">
                             <input type="email" class=""
                             placeholder="Usuario" />
-                            <i class="fa fa-user"></i>
+                            <i class="fi-xnluxm-user"></i>
                         </div>
                         <div class="form-group">
                             <input type="password" class=""
                             placeholder="Contraseña" />
-                            <i class="fa fa-lock"></i>
+                            <i class="fi-xnluxm-lock"></i>
                         </div>
                         <a href="#" class="remenber-me">Recordar contraseña</a>
                         <button class="btn-login" type="submit" class="">
@@ -175,7 +179,93 @@
             </div>
         </div>
 
+    </section> -->
+
+    <section class="register-section">
+        <nav>
+            <div class="companyName">
+                <div class="companyName">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+        </nav>
+        
+        <div class="login-container">
+            <div class="form-container">
+                <h3 class="title-type-user">Registro profesor</h3>
+                <div class="image-user">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="change-user">
+                    <button>
+                        Profesor
+                        <i class="fi-cnsuxl-user-tie-circle"></i>
+                    </button>
+                    <button>
+                        Alumno
+                        <i class="fi-xnsuxl-user-circle-solid"></i>
+                    </button>
+                </div>
+                <form>
+                    <div class="alert-error">
+                        ¡Campos con errores!
+                        <a href="#"><i class="fi-xwluxl-times-wide"></i></a>
+                    </div>
+                        <div class="form-group">
+                            <input type="text" class=""
+                            placeholder="Código" />
+                            <i class="fi-xnluxm-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class=""
+                            placeholder="Nombres" />
+                            <i class="fi-xnluxm-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class=""
+                            placeholder="Apellidos" />
+                            <i class="fi-xnluxm-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class=""
+                            placeholder="Contraseña" />
+                            <i class="fi-xnluxm-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class=""
+                            placeholder="Repetir contraseña" />
+                            <i class="fi-xnluxm-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class=""
+                            placeholder="Email" />
+                            <i class="fi-xnluxm-lock"></i>
+                        </div>
+                        <div class="checkboxes">
+                            <div class="custom-sq">
+                                <input type="checkbox" id="box1"/>
+                                <label for="box1">Inicial</label>
+                              </div>
+                              <div class="custom-sq">
+                                <input type="checkbox" id="box2"/>
+                                <label for="box2">Primaria</label>
+                              </div>
+                              <div class="custom-sq">
+                                <input type="checkbox" id="box3"/>
+                                <label for="box3">Secundaria</label>
+                              </div>
+                        </div>
+                        <button class="btn-login" type="submit" class="">
+                            Registrar
+                        </button>
+                        <small class="no-account">¿Tienes una cuenta?</small>
+                        <a href="#" class="create-account">Login</a>
+                </form>
+            </div>
+        </div>
+
     </section>
+
 
 </body>
 </html>
