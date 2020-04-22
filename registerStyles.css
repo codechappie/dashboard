@@ -1,6 +1,6 @@
 @font-face {
     font-family: Josefina;
-    src: url(/fonts/JosefinSans-Regular.ttf);
+    src: url('./fonts/JosefinSans-Regular.ttf');
  }
 *{
     margin: 0;
